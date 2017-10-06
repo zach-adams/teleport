@@ -10,7 +10,6 @@
 
 #import <SecurityInterface/SFCertificatePanel.h>
 #import <SecurityInterface/SFChooseIdentityPanel.h>
-#import <Sparkle/Sparkle.h>
 
 #import "TPLayoutView.h"
 #import "TPRemoteHost.h"
@@ -76,11 +75,6 @@
 {
 	[super showWindow:sender];
 	[NSApp activateIgnoringOtherApps:YES];
-}
-
-- (SUUpdater *)updater
-{
-	return [SUUpdater sharedUpdater];
 }
 
 

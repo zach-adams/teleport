@@ -30,7 +30,6 @@
 #import <sys/param.h>
 #import <sys/mount.h>
 #import <Security/AuthSession.h>
-#import <Sparkle/Sparkle.h>
 
 #import "TPNetworkConnection.h"
 #import "TPTestsController.h"
@@ -380,12 +379,6 @@ static TPMainController * _mainController = nil;
 
 - (void)checkVersionsAndConfirm:(BOOL)confirm
 {
-	if(confirm) {
-		[[SUUpdater sharedUpdater] checkForUpdates:nil];
-	}
-	else {
-		[[SUUpdater sharedUpdater] checkForUpdatesInBackground];
-	}
 }
 
 //- (void)_handleCheckVersionWithDictionary:(NSDictionary*)productVersionDict

@@ -9,6 +9,7 @@
 #import "TPRemoteOperationsController.h"
 #import "TPMainController.h"
 #import "TPUtils.h"
+#import "TPApplication.h"
 
 typedef int CGSConnection;
 typedef NS_ENUM(NSInteger, CGSGlobalHotKeyOperatingMode) {
