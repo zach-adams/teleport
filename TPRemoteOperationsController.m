@@ -120,7 +120,7 @@ static TPRemoteOperationsController * _remoteOperationsController = nil;
 {
 	[(TPMainController*)[NSApp delegate] goFrontmost];
 	
-	CGDisplayHideCursor(CGMainDisplayID());
+	//CGDisplayHideCursor(CGMainDisplayID());
 	
 	NSRect frame = [screen frame];
 	NSPoint centerPoint = NSMakePoint(NSMidX(frame), NSMidY(frame));

@@ -99,7 +99,7 @@ static CGEventRef eventCallback(CGEventTapProxy proxy, CGEventType type, CGEvent
 	CGSSetConnectionProperty(_CGSDefaultConnection(), _CGSDefaultConnection(), propertyString, kCFBooleanTrue);
 	CFRelease(propertyString);
 	
-	CGDisplayHideCursor(kCGDirectMainDisplay);
+	//CGDisplayHideCursor(kCGDirectMainDisplay);
 	
 	if(_eventPort == NULL) {
 		CFRunLoopRef runLoop = CFRunLoopGetCurrent();
